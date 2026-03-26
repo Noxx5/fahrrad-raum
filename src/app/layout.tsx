@@ -3,6 +3,7 @@ import { Geist, Geist_Mono, Inter } from 'next/font/google'
 import Header from '@/components/header/header'
 import { cn } from '@/lib/utils'
 import './globals.css'
+import Footer from '@/components/footer/footer'
 import ThemeProvider from '@/components/theme/themeProvider'
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-sans' })
@@ -35,15 +36,17 @@ export default function RootLayout({
         geistSans.variable,
         geistMono.variable,
         'font-sans',
-        inter.variable
+        inter.variable,
+        'scroll-smooth'
       )}
       lang='en'
       suppressHydrationWarning
     >
-      <body className='min-h-full flex flex-col'>
+      <body className='min-h-screen flex flex-col'>
         <ThemeProvider attribute={'class'} defaultTheme='system' enableSystem>
           <Header />
           {children}
+          <Footer />
         </ThemeProvider>
       </body>
     </html>
