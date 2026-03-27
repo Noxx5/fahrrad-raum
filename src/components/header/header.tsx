@@ -9,8 +9,7 @@ const Header = () => {
     { name: 'Startseite', link: '/' },
     { name: 'Leistungen', link: '/services' },
     { name: 'Über uns', link: '/about-us' },
-    { name: 'Kontakt', link: '/contact' },
-    { name: 'Bewertung', link: '/reviews' }
+    { name: 'Kontakt', link: '/contact' }
   ]
 
   return (
@@ -18,7 +17,10 @@ const Header = () => {
       <div className='container mx-auto flex items-center justify-between py-4 min-h-16'>
         <div className='flex items-center gap-32'>
           <div>
-            <Link className='flex items-center gap-2.5' href={'/'}>
+            <Link
+              className='flex items-center gap-2.5'
+              href={'/'}
+            >
               <Image
                 alt='logo'
                 height={48}

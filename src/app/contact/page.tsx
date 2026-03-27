@@ -20,7 +20,7 @@ export default function Contact() {
       <div className='mt-40'>
         <div>
           <div className='text-center'>
-            <span className='text-3xl font-bold tracking-wide'>
+            <span className='text-3xl font-bold tracking-wide dark:text-black'>
               So kannst du uns Erreichen
             </span>
           </div>

@@ -16,7 +16,9 @@ export default function AboutUs() {
       </div>
       <div className='mt-40'>
         <div className='text-center'>
-          <span className='text-3xl font-bold tracking-wide'>Über Uns</span>
+          <span className='text-3xl font-bold tracking-wide dark:text-black'>
+            Über Uns
+          </span>
         </div>
         <div className='mt-12 container mx-auto mt flex items-center justify-center'>
           <Card className='md:max-w-4xl max-w-lg bg-background/80 backdrop-blur-sm'>
