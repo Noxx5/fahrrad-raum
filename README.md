@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚲 Fahrrad Raum Website
 
-## Getting Started
+Moderne, responsive Website für eine Fahrradreparaturwerkstatt in Braunschweig.  
+Erstellt mit React, Tailwind CSS und modernen UI-Komponenten.
 
-First, run the development server:
+---
+
+## ✨ Features
+
+- 📱 Responsive Design (Mobile-first)
+- 🛠️ Serviceübersicht (Reparaturen, E-Bike, Inspektion)
+- ⭐ Kundenbewertungen
+- 📍 Kontaktbereich mit Adresse & Öffnungszeiten
+- 🎨 Modernes UI mit Animationen (Framer Motion)
+
+---
+
+## 🧰 Tech Stack
+
+- React / Next.js
+- Tailwind CSS
+- shadcn/ui Komponenten
+- Lucide Icons
+- Framer Motion
+
+---
+
+## 🚀 Installation
+
+1. Repository klonen:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/Noxx5/fahrrad-raum.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Projekt öffnen:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+cd fahrrad-raum
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. Packages Installieren:
 
-## Learn More
+```bash
+pnpm i
+```
 
-To learn more about Next.js, take a look at the following resources:
+4. Projekt starten:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+pnpm dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📂 Projektstruktur
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+/src                   # Projekt Ordner
+    /app                # App Ordner
+        page.tsx        # Hauptseite
+    /components         # UI Komponenten
+        /ui             # Shadcn Components
+/public                 # Bilder & Assets
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📈 Verbesserungen (To-Do)
+
+- Online-Terminbuchung
+- Google Maps Integration
+- Realtime Bewertungen einbinden
+- Mehrsprachigkeit
