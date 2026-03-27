@@ -1,10 +1,23 @@
+'use client'
+
+import { Card, CardContent } from '@/components/ui/card'
+import { Label } from '@/components/ui/label'
 import { PhoneIcon } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { Card, CardContent } from '@/components/ui/card'
-import { Label } from '@/components/ui/label'
+import { useEffect, useState } from 'react'
 
 export default function Contact() {
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    function setting() {
+      setLoading(false)
+    }
+
+    return setting
+  }, [])
+
   return (
     <main className='min-h-screen'>
       <div className='fixed w-screen h-screen -z-10'>
@@ -14,6 +27,7 @@ export default function Contact() {
             className='object-cover'
             fill
             src='/mb.jpg'
+            priority
           />
         </div>
       </div>

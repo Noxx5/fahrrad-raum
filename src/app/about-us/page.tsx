@@ -1,7 +1,20 @@
+'use client'
+
 import Image from 'next/image'
 import { Card, CardContent } from '@/components/ui/card'
+import { useEffect, useState } from 'react'
 
 export default function AboutUs() {
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    function setting() {
+      setLoading(false)
+    }
+
+    return setting
+  }, [])
+
   return (
     <main className='min-h-screen'>
       <div className='fixed w-screen h-screen -z-10'>
@@ -11,6 +24,7 @@ export default function AboutUs() {
             className='object-cover'
             fill
             src='/mb.jpg'
+            priority
           />
         </div>
       </div>
