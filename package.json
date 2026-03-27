@@ -1,6 +1,11 @@
 {
   "name": "fahrrad-raum",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "author": {
+    "name": "Noxx5",
+    "url": "https://github.com/Noxx5"
+  },
+  "homepage": "https://fahrrad-raum.vercel.app/",
   "private": true,
   "scripts": {
     "dev": "next dev",
