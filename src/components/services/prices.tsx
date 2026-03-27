@@ -35,12 +35,10 @@ const Prices = () => {
 
   return (
     <div className='container mx-auto px-4'>
-      {/* Titel */}
       <div className='text-center'>
-        <h2 className='text-3xl font-bold'>Preise</h2>
+        <h2 className='text-xl md:text-3xl font-bold'>Preise</h2>
       </div>
 
-      {/* Grid */}
       <div className='grid grid-cols-1 md:grid-cols-3 gap-6 mt-12'>
         {prices.map((price, i) => (
           <Card

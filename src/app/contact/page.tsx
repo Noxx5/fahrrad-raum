@@ -17,15 +17,15 @@ export default function Contact() {
           />
         </div>
       </div>
-      <div className='mt-40'>
+      <div className='mt-40 px-6 md:px-0'>
         <div>
           <div className='text-center'>
-            <span className='text-3xl font-bold tracking-wide dark:text-black'>
+            <span className='text-xl md:text-3xl font-bold tracking-wide dark:text-black'>
               So kannst du uns Erreichen
             </span>
           </div>
           <div className='flex items-center justify-center mt-12'>
-            <Card className='md:max-w-4xl max-w-lg bg-background/80 backdrop-blur-sm min-w-sm'>
+            <Card className='max-w-80 bg-background/80 backdrop-blur-sm w-full'>
               <CardContent>
                 <div className='mb-4'>
                   <span className='font-bold text-xl'>Fahrrad Raum</span>

@@ -32,11 +32,14 @@ export function StatsMarquee() {
         }}
       >
         {[0, 1].map((track) => (
-          <div className='flex shrink-0 gap-10 pr-6' key={track}>
+          <div
+            className='flex shrink-0 gap-10 pr-6'
+            key={track}
+          >
             {lineItems.map((item, i) => (
               <Image
                 alt='reparatur'
-                className='rounded-3xl'
+                className='rounded-3xl w-64 h-64 md:w-lg md:h-96 object-cover'
                 height={256}
                 key={i}
                 priority

@@ -14,7 +14,9 @@ const WhyUs = () => {
   return (
     <div className='container mx-auto'>
       <div className='text-center'>
-        <span className='text-3xl font-bold tracking-wide'>Warum wir</span>
+        <span className='text-xl md:text-3xl font-bold tracking-wide'>
+          Warum wir
+        </span>
       </div>
       <div className='grid grid-cols-1 gap-6 mt-12 md:grid-cols-2'>
         {whys.map((why, i) => (
